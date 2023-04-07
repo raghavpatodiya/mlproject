@@ -1,0 +1,13 @@
+prefix=E:/Study2023/mlproject/venv/Library
+exec_prefix=E:/Study2023/mlproject/venv/Library
+libdir=E:/Study2023/mlproject/venv/Library/lib
+sharedlibdir=E:/Study2023/mlproject/venv/Library/lib
+includedir=E:/Study2023/mlproject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
