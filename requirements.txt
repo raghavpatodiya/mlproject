@@ -5,5 +5,5 @@ matplotlib
 scikit-learn
 xgboost
 dill
-# catboost
+# catboost  conda install -c conda-forge catboost
 # -e .
